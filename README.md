@@ -17,5 +17,18 @@ A simple and lightweight text preprocessing toolkit for NLP pipelines.
 ## Installation
 
 ```bash
-pip install process-text
-```
+pip install akoang-library
+
+
+## Usage
+
+```from process_text import transforms
+
+string = "Hello World 🫠"
+
+trans = transforms.Compose([
+  transforms.LowerCase(),
+  transforms.RemoveEmojis()
+])
+
+print(trans(string))
