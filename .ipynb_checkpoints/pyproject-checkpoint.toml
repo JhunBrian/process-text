@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "process-text"
-version = "0.1.0"
+name = "process-text-ni-brian"
+version = "0.1.1"
 description = "A lightweight text preprocessing toolkit with tokenization, stopword removal, stemming, lemmatization, and emoji/special character cleaning."
 authors = [
     { name="Jhun Brian Andam" }
