@@ -18,11 +18,12 @@ A simple and lightweight text preprocessing toolkit for NLP pipelines.
 
 ```bash
 pip install akoang-library
-
+```
 
 ## Usage
 
-```from process_text import transforms
+```python
+from process_text import transforms
 
 string = "Hello World 🫠"
 
@@ -32,3 +33,4 @@ trans = transforms.Compose([
 ])
 
 print(trans(string))
+```
